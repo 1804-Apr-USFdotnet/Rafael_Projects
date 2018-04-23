@@ -11,9 +11,8 @@ namespace PalindromeTest_tst
         public void TestPalindromeMethod()
         {
             bool expected1 = true;
-            bool expected2 = true;
-            bool expected3 = false;
-            bool expected4 = false;
+            bool expected2 = false;
+
 
             bool actual1 = PalindromeFunctions.isPalindromeWithRegex("racecar");
         
@@ -22,7 +21,7 @@ namespace PalindromeTest_tst
 
             Assert.AreEqual(expected1, actual1);
        
-            Assert.AreEqual(expected3, actual2);
+            Assert.AreEqual(expected2, actual2);
             
         }
     }

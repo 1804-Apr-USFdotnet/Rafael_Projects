@@ -14,18 +14,25 @@ namespace PalindromeTest_tst
             {
                 bool expected1 = true;
                 bool expected2 = true;
+
                 bool expected3 = false;
-                bool expected4 = false;
+
 
                 bool actual1 = PalindromeFunctions.isPalindromeWithRegex("racecar");
-
                 bool actual2 = PalindromeFunctions.isPalindromeWithRegex("Never odd or even");
+
+
+                bool actual3 = PalindromeFunctions.isPalindromeWithRegex("Not a palindrome");
 
 
                 Assert.AreEqual(expected1, actual1);
 
-                Assert.AreEqual(expected3, actual2);
+                Assert.AreEqual(expected2, actual2);
+
+                Assert.AreEqual(expected3, actual3);
 
             }
         }
+    }
+
 }
