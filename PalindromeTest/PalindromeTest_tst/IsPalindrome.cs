@@ -26,4 +26,3 @@ namespace PalindromeTest_tst
         }
     }
     }
-}

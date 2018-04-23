@@ -14,8 +14,20 @@ namespace PalindromeTest
             bool result = false;
             try
             {
+                int i = 0;
+                int j = input.Length - 1;
 
-                input.ToLower();
+                while (i < j)
+                {
+                    if (input[i] != input[j])
+                       result =  false;
+
+                    i++;
+                    j--;
+                }
+
+               result = true;
+ 
                 bool isPalindrome =  input == new string(input.Reverse().ToArray());
 
                 result = true;
