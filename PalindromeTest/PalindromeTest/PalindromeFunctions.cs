@@ -9,11 +9,13 @@ namespace PalindromeTest
 {
     public class PalindromeFunctions
     {
-        public static    bool isPalindrome(string input)
+        public static    bool isPalindromeWithRegex(string input)
         {
             bool result = false;
             try
             {
+
+                input.ToLower();
                 bool isPalindrome =  input == new string(input.Reverse().ToArray());
 
                 result = true;
