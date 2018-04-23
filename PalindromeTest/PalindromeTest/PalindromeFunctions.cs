@@ -9,7 +9,7 @@ namespace PalindromeTest
 {
     public class PalindromeFunctions
     {
-        public static    bool isPalindromeWithRegex(string input)
+        public static    bool isPalindrome(string input)
         {
             bool result = false;
             try
