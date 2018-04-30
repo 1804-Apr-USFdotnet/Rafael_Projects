@@ -1,0 +1,15 @@
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\obj\Debug\PalindromeTest_tst.csprojResolveAssemblyReference.cache
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\obj\Debug\PalindromeTest_tst.csproj.CoreCompileInputs.cache
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\PalindromeTest_tst.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\PalindromeTest_tst.pdb
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\PalindromeTest.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\PalindromeTest.pdb
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\obj\Debug\PalindromeTest_tst.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest_tst\obj\Debug\PalindromeTest_tst.pdb

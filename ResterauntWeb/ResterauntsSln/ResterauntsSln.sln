@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResterauntsWeb", "ResterauntsWeb\ResterauntsWeb.csproj", "{8EAF22BE-3BD4-4C4B-AB55-8A84D237F24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResterauntsWeb.Tests", "ResterauntsWeb.Tests\ResterauntsWeb.Tests.csproj", "{CB817D01-2D63-4DC5-8463-753A43FE8E70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EAF22BE-3BD4-4C4B-AB55-8A84D237F24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAF22BE-3BD4-4C4B-AB55-8A84D237F24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAF22BE-3BD4-4C4B-AB55-8A84D237F24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAF22BE-3BD4-4C4B-AB55-8A84D237F24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB817D01-2D63-4DC5-8463-753A43FE8E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB817D01-2D63-4DC5-8463-753A43FE8E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB817D01-2D63-4DC5-8463-753A43FE8E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB817D01-2D63-4DC5-8463-753A43FE8E70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8042DF5F-FA8B-4D38-B991-33267AE0F1BE}
+	EndGlobalSection
+EndGlobal

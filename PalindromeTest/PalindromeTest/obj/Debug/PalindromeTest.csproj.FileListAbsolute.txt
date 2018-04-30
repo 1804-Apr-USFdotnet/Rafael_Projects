@@ -1,0 +1,6 @@
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest\bin\Debug\PalindromeTest.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest\bin\Debug\PalindromeTest.pdb
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest\obj\Debug\PalindromeTest.csprojResolveAssemblyReference.cache
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest\obj\Debug\PalindromeTest.csproj.CoreCompileInputs.cache
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest\obj\Debug\PalindromeTest.dll
+C:\src\RevatureProjects\Rafael_Projects\PalindromeTest\PalindromeTest\obj\Debug\PalindromeTest.pdb
