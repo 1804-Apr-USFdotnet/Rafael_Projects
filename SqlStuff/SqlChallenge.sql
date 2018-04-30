@@ -24,42 +24,42 @@ Go
 --)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 --) ON [PRIMARY]
 
-CREATE TABLE [dbo].[Customers](
-	[CustomerId] [int] IDENTITY(1,1) NOT NULL,
-	[FirstName] [nvarchar](50) NOT NULL,
-	[LastName] [nvarchar](50) NOT NULL,
-	[CardNumber] [nvarchar](50) NOT NULL,
- CONSTRAINT [PK_Customers] PRIMARY KEY CLUSTERED 
-(
-	[CustomerId] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
-GO
+--CREATE TABLE [dbo].[Customers](
+--	[CustomerId] [int] IDENTITY(1,1) NOT NULL,
+--	[FirstName] [nvarchar](50) NOT NULL,
+--	[LastName] [nvarchar](50) NOT NULL,
+--	[CardNumber] [nvarchar](50) NOT NULL,
+-- CONSTRAINT [PK_Customers] PRIMARY KEY CLUSTERED 
+--(
+--	[CustomerId] ASC
+--)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+--) ON [PRIMARY]
+--GO
 
-CREATE TABLE [dbo].[Orders](
-	[OrderId] [int] IDENTITY(1,1) NOT NULL,
-	[ProductId] [int] NOT NULL,
-	[CustomerId] [int] NOT NULL,
- CONSTRAINT [PK_Orders] PRIMARY KEY CLUSTERED 
-(
-	[OrderId] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
-GO
+--CREATE TABLE [dbo].[Orders](
+--	[OrderId] [int] IDENTITY(1,1) NOT NULL,
+--	[ProductId] [int] NOT NULL,
+--	[CustomerId] [int] NOT NULL,
+-- CONSTRAINT [PK_Orders] PRIMARY KEY CLUSTERED 
+--(
+--	[OrderId] ASC
+--)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+--) ON [PRIMARY]
+--GO
 
-ALTER TABLE [dbo].[Orders]  WITH CHECK ADD  CONSTRAINT [FK_Orders_Orders] FOREIGN KEY([CustomerId])
-REFERENCES [dbo].[Customers] ([CustomerId])
-GO
+--ALTER TABLE [dbo].[Orders]  WITH CHECK ADD  CONSTRAINT [FK_Orders_Orders] FOREIGN KEY([CustomerId])
+--REFERENCES [dbo].[Customers] ([CustomerId])
+--GO
 
-ALTER TABLE [dbo].[Orders] CHECK CONSTRAINT [FK_Orders_Orders]
-GO
+--ALTER TABLE [dbo].[Orders] CHECK CONSTRAINT [FK_Orders_Orders]
+--GO
 
-ALTER TABLE [dbo].[Orders]  WITH CHECK ADD  CONSTRAINT [FK_Orders_Products] FOREIGN KEY([ProductId])
-REFERENCES [dbo].[Products] ([ProductId])
-GO
+--ALTER TABLE [dbo].[Orders]  WITH CHECK ADD  CONSTRAINT [FK_Orders_Products] FOREIGN KEY([ProductId])
+--REFERENCES [dbo].[Products] ([ProductId])
+--GO
 
-ALTER TABLE [dbo].[Orders] CHECK CONSTRAINT [FK_Orders_Products]
-GO
+--ALTER TABLE [dbo].[Orders] CHECK CONSTRAINT [FK_Orders_Products]
+--GO
 
 
 
@@ -82,3 +82,4 @@ Insert Into [dbo].[Orders]
 )
 values
 (4,1)
+select * from orders where customerId = 1
