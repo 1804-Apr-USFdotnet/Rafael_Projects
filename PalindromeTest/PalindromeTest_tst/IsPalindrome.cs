@@ -14,9 +14,9 @@ namespace PalindromeTest_tst
             bool expected2 = false;
 
 
-            bool actual1 = PalindromeFunctions.isPalindromeWithRegex("racecar");
+            bool actual1 = PalindromeFunctions.isPalindrome("racecar");
         
-            bool actual2 = PalindromeFunctions.isPalindromeWithRegex("race");
+            bool actual2 = PalindromeFunctions.isPalindrome("race");
 
 
             Assert.AreEqual(expected1, actual1);

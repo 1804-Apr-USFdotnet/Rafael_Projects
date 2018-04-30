@@ -18,11 +18,11 @@ namespace PalindromeTest_tst
                 bool expected3 = false;
 
 
-                bool actual1 = PalindromeFunctions.isPalindromeWithRegex("racecar");
-                bool actual2 = PalindromeFunctions.isPalindromeWithRegex("Never odd or even");
+                bool actual1 = PalindromeFunctions.IsPalindromeWithRegex("racecar");
+                bool actual2 = PalindromeFunctions.IsPalindromeWithRegex("Never odd or even");
 
 
-                bool actual3 = PalindromeFunctions.isPalindromeWithRegex("Not a palindrome");
+                bool actual3 = PalindromeFunctions.IsPalindromeWithRegex("Not a palindrome");
 
 
                 Assert.AreEqual(expected1, actual1);

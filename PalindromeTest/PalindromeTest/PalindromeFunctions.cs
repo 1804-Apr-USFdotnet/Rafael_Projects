@@ -11,7 +11,8 @@ namespace PalindromeTest
     {
         public static    bool isPalindrome(string input)
         {
-            bool result = false;
+            input.ToLower();
+            bool result = true;
             try
             {
                 int i = 0;
@@ -26,11 +27,9 @@ namespace PalindromeTest
                     j--;
                 }
 
-               result = true;
  
-                bool isPalindrome =  input == new string(input.Reverse().ToArray());
+                //bool isPalindrome =  input == new string(input.Reverse().ToArray());
 
-                result = true;
             }
 
             catch
@@ -45,6 +44,7 @@ namespace PalindromeTest
 
         public static bool IsPalindromeWithRegex(string s)
         {
+            s.ToLower();
             if (string.IsNullOrEmpty(s))
             {
                 throw new ArgumentException("String is null or empty");
