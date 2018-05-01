@@ -4,13 +4,28 @@
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<form>
+    <fieldset>
+        <label for="firstName">FirstName</label>
+        <input class="form-control" id="firstName" type="Text" name="firstName" value="" required />
+        <input class="form-control" type="Text" name="LastName" value="" required />
 
+        <label for="email">Email:</label>
+        <input id ="email"class="form-control" type="email" name="name" value="" required />
+
+        <label for="phone">phone</label>
+        <input class="form-control" name="phone" type='tel' pattern='^(\+0?1\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$' title='Enter a valid US number' />
+        <label for="Questions">Questions:</label>
+        <textarea id="Questions" class="form-control">
+
+</textarea>
+
+
+    </fieldset>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 <address>
     <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>

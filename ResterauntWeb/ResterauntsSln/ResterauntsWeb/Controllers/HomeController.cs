@@ -19,6 +19,11 @@ namespace ResterauntsWeb.Controllers
 
             return View();
         }
+        public ActionResult HtmlPractice()
+        {
+
+            return View();
+        }
 
         public ActionResult Contact()
         {

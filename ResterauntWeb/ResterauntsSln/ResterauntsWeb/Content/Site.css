@@ -1,12 +1,15 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+   
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+  
+  
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +24,41 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+
+#container {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+}
+
+#ResterauntImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("http://www.gatesgardencentre.co.uk/wp-content/uploads/gn043-MED-WIDE.jpg");
+    overflow: hidden;
+    /*-webkit-filter: grayscale(100%);*/
+    /*-webkit-filter: sepia(100%);*/
+    -webkit-filter: blur(2px);
+}
+
+#SiteDescription {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    width: 100%;
+    color: white;
+}
+section{
+
+  
+    font-family:Verdana
 }
